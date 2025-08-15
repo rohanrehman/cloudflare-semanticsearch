@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "src",
+		"declaration": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"inlineSourceMap": false,
+		"lib": ["es2021"],
+		"listEmittedFiles": false,
+		"listFiles": false,
+		"moduleResolution": "node",
+		"noFallthroughCasesInSwitch": true,
+		"pretty": true,
+		"resolveJsonModule": true,
+		"rootDir": ".",
+		"skipLibCheck": true,
+		"strict": true,
+		"traceResolution": false,
+		"outDir": "",
+		"target": "es2021",
+		"module": "es2022",
+		"jsx": "react",
+		"types": [
+			"@cloudflare/workers-types",
+			"jest",
+			"@types/node"
+		],
+		"checkJs": false,
+		"noEmit": true,
+		"isolatedModules": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": ["node_modules", "dist", "tests"],
+	"include": ["src", "scripts"]
+}
